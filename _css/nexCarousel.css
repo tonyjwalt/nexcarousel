@@ -1,6 +1,14 @@
-/* =============================================================================
-* @NexCarousel Styles
-* ========================================================================== */
+/*
+ * NEXCAROUSEL  https://github.com/tonyjwalt/nexcarousel
+ * LICENSE      Copyright (c) 2013 Anthony Walt - MIT License
+ * Written by:  Tony Walt
+ * Notes:       Jquery Widget carousel written to be responsive and rely on a sandbaging technique
+ *              to maintain proper sizing and aspect ratio.
+ *              It was written for a specific use. Please feel free to fork it, but I
+ *              would greatly appreciate any changes so that I can continue to improve upon this.
+ * Requires:    jQuery 1.9+
+ * Requires:    jQuery UI 1.8.16+
+ */
 /* Global
 =================================================== */
 .nexCarousel {

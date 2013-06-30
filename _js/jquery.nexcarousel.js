@@ -1,5 +1,6 @@
 /*
- * NEXCAROUSEL - https://github.com/tonyjwalt/nexcarousel
+ * NEXCAROUSEL  https://github.com/tonyjwalt/nexcarousel
+ * LICENSE      Copyright (c) 2013 Anthony Walt - MIT License
  * Written by:  Tony Walt
  * Notes:       Jquery Widget carousel written to be responsive and rely on a sandbaging technique
  *              to maintain proper sizing and aspect ratio.

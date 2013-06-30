@@ -36,3 +36,6 @@ This is a responsive Jquery Widget carousel using sandbagging to keep sizing and
 
 ### Example Use
 $( '#myID' ).NexCarousel();
+
+### License
+The MIT License (MIT)
