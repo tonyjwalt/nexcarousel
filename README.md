@@ -7,5 +7,5 @@ It was written for a specific use. Please feel free to fork it, but I would grea
 
 Requires
 ===========
-jQuery 1.9+
+jQuery 1.9+, 
 jQuery UI 1.8.16+
