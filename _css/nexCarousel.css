@@ -1,0 +1,109 @@
+/* =============================================================================
+* @NexCarousel Styles
+* ========================================================================== */
+/* Global
+=================================================== */
+.nexCarousel {
+  position: relative;
+  margin-bottom:20px;
+}
+
+/* Image List
+=================================================== */
+.nexCarousel .slide-list {
+  padding:0;
+  list-style: none;
+}
+.nexCarousel .slide {
+  overflow: hidden;
+  position: absolute;
+  display:none;
+  z-index: 1;
+}
+
+.nexCarousel .slide.csshide {
+  display: block;
+  opacity: 0;
+  transition: opacity .4s ease-out;
+  -moz-transition: opacity .4s ease-out;
+  -webkit-transition: opacity .4s ease-out;
+  -o-transition: opacity .4s ease-out;
+}
+
+.csstransitions .nexCarousel .slide.active {
+  opacity: 1;
+}
+
+.nexCarousel .slide,
+.nexCarousel .slide img {
+  width:100%;
+}
+
+/* Caption
+=================================================== */
+.nexCarousel .caption {
+  position: absolute;
+  bottom:20px;
+  left:20px;
+  z-index: 2;
+}
+
+/* Sandbag
+=================================================== */
+.nexCarousel .sandbag {
+  width: 100%;
+  visibility: hidden;
+  display:block;
+}
+.browser_ie_8 .nexCarousel .sandbag,
+.lt-ie9 .nexCarousel .sandbag  {
+  zoom: 1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  filter:alpha(opacity=0);
+}
+
+/* Bullets
+=================================================== */
+.nexCarousel  .bullet-list {
+  display: table;
+  margin: 5px auto 0;
+  height: 14px;
+  position: relative;
+  z-index: 100;
+}
+
+.nexCarousel  .bullet-list li {
+  display: table-cell;
+  display: block;
+  float: left;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  margin: 0 2px 0 0;
+}
+.nexCarousel  .bullet-list a {
+  cursor: default;
+  overflow: hidden;
+  display: block;
+  margin: 2px;
+  text-indent: -9999px;
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 14px;
+  width: 10px;
+  height:10px;
+  border-radius: 10px;
+  background-color: rgb(204,204,204);
+  transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out; /* Firefox 4 */
+  -webkit-transition: all .2s ease-out; /* Safari and Chrome */
+  -o-transition: all .2s ease-out; /* Opera */
+}
+.nexCarousel .bullet-list .active a{
+  margin: 0;
+  text-indent: 0;
+  text-align: center;
+  width: 14px;
+  height: 14px;
+  background-color: rgb(255,255,255);
+}
